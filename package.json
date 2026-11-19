@@ -27,7 +27,8 @@
 		"deploy": "npm run build && wrangler deploy",
 		"dev": "react-router dev",
 		"preview": "npm run build && vite preview",
-		"typecheck": "npm run typegen && tsc -b"
+		"typecheck": "npm run typegen && tsc -b",
+		"update-stops": "node scripts/update-stop-data.mjs"
 	},
 	"type": "module"
 }
