@@ -1,0 +1,16 @@
+# Copy this file to .dev.vars and fill in your keys for local development.
+# For the deployed Worker, set them as secrets instead:
+#   npx wrangler secret put CTA_TRAIN_TRACKER_KEY
+#   npx wrangler secret put CTA_BUS_TRACKER_KEY
+#
+# Free keys from CTA: https://www.transitchicago.com/developers/
+# Without them, the app still shows nearby stops, alerts, line status and
+# weather, but not live arrival times.
+
+CTA_TRAIN_TRACKER_KEY=
+CTA_BUS_TRACKER_KEY=
+
+# Unsplash Access Key (not the Secret Key), for the photo above the weather.
+# Without it, the page just leaves the photo out.
+#   npx wrangler secret put UNSPLASH_ACCESS_KEY
+UNSPLASH_ACCESS_KEY=
